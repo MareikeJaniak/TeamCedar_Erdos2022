@@ -12,6 +12,8 @@ The goals for our project were twofold:
 
 Stakeholders for this project include CoverMyMeds, as well as patients and clinicians. By being able to know whether a medication is likely to be accepted and how much the patient will have to pay, medical professionals can make informed decisions at the point of prescription, especially when multiple medications may be available. 
 
+* add presentation link here * 
+
 ### Dataset
 
 The data are from a simulated dataset provided by CoverMyMeds. We have 9 features and close to 14 million observations. 
