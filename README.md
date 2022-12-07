@@ -31,13 +31,19 @@ The columns include:
 
 ### Exploratory Data Analysis
 
-The CoverMyMeds dataset includes close to 14 million observations of (simulated) claim billing data for prescription medications, including whether the claim was accepted or rejected, and how much the patient paid as a co-pay for the prescription. 
+The CoverMyMeds dataset includes close to 14 million observations of (simulated) claim billing data for prescription medications, including whether the claim was accepted or rejected, and how much the patient paid as a co-pay for the prescription. We explore the dataset in detail with visualizations and descriptive statistics in the jupyter notebook [data_exploration_TeamCedar.ipynb](https://github.com/MareikeJaniak/TeamCedar_Erdos2022/blob/70c4e53e819df312f7c8578a277ce516ffaf1182/data_exploration_TeamCedar.ipynb). Below we show a brief overview of the most relevant findings from our data exploration. 
 
 The dataset is quite imbalanced when it comes to acceptance and rejection rates. Luckily for patients, most claims for prescriptions are accepted:
 
+![Screen Shot 2022-12-07 at 10 35 54 AM](https://user-images.githubusercontent.com/30602072/206222486-0a9ad879-f55c-4d1c-8ffa-75fe31a0ad55.png)
 
+This is especially true for generic medications, of which over 99% are accepted, while acceptance rates for branded medications are lower:
 
-add descriptive stats and plots here, link to exploratory data analysis jupyter notebook
+![Screen Shot 2022-12-07 at 10 42 50 AM](https://user-images.githubusercontent.com/30602072/206224216-2b2282e0-b209-4c65-9614-58a9fc446014.png)
+
+A discrepancy between branded and generic medications is also apparent when considering patient co-pays. Branded medications have a higher average cost to the patient:
+
+ADD FIGURE HERE
 
 ### Goal 1: Predicting likelihood of acceptance/rejection
 
