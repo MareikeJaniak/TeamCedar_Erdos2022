@@ -35,11 +35,11 @@ The CoverMyMeds dataset includes close to 14 million observations of (simulated)
 
 The dataset is quite imbalanced when it comes to acceptance and rejection rates. Luckily for patients, most claims for prescriptions are accepted:
 
-[acceptance_rejection.pdf](https://github.com/MareikeJaniak/TeamCedar_Erdos2022/files/10177810/acceptance_rejection.pdf)
+<img width="611" alt="Screen Shot 2022-12-07 at 11 35 56 AM" src="https://user-images.githubusercontent.com/30602072/206237180-dc0f5390-883f-42f1-8bbb-605a9e53e51d.png">
 
 This is especially true for generic medications, of which over 99% are accepted, while acceptance rates for branded medications are lower:
 
-[accepted_rejected_brandedness.pdf](https://github.com/MareikeJaniak/TeamCedar_Erdos2022/files/10177815/accepted_rejected_brandedness.pdf)
+<img width="612" alt="Screen Shot 2022-12-07 at 11 36 18 AM" src="https://user-images.githubusercontent.com/30602072/206237219-baab4f7c-362e-4917-8631-ae8d9215252c.png">
 
 A discrepancy between branded and generic medications is also apparent when considering patient co-pays. Branded medications have a higher average cost to the patient:
 
