@@ -35,15 +35,15 @@ The CoverMyMeds dataset includes close to 14 million observations of (simulated)
 
 The dataset is quite imbalanced when it comes to acceptance and rejection rates. Luckily for patients, most claims for prescriptions are accepted:
 
-![Screen Shot 2022-12-07 at 10 35 54 AM](https://user-images.githubusercontent.com/30602072/206222486-0a9ad879-f55c-4d1c-8ffa-75fe31a0ad55.png)
+[acceptance_rejection.pdf](https://github.com/MareikeJaniak/TeamCedar_Erdos2022/files/10177810/acceptance_rejection.pdf)
 
 This is especially true for generic medications, of which over 99% are accepted, while acceptance rates for branded medications are lower:
 
-![Screen Shot 2022-12-07 at 10 42 50 AM](https://user-images.githubusercontent.com/30602072/206224216-2b2282e0-b209-4c65-9614-58a9fc446014.png)
+[accepted_rejected_brandedness.pdf](https://github.com/MareikeJaniak/TeamCedar_Erdos2022/files/10177815/accepted_rejected_brandedness.pdf)
 
 A discrepancy between branded and generic medications is also apparent when considering patient co-pays. Branded medications have a higher average cost to the patient:
 
-ADD FIGURE HERE
+![Screen Shot 2022-12-07 at 11 31 58 AM](https://user-images.githubusercontent.com/30602072/206236166-b154653d-5852-4725-8300-c11d4bfb44f4.png)
 
 ### Goal 1: Predicting likelihood of acceptance/rejection
 
@@ -54,4 +54,9 @@ add methods and results for models here, link to jupyter notebook for goal 1
 add methods and results for models here, link to jupyter notebook for goal 2
 
 ### Conclusions and Future Directions
- TBD
+
+#### Future steps
+Build a tool that allows providers to see 
+* likelihood of acceptance/rejection
+* cost of the medication to the patient
+* potential alternative prescriptions for the diagnosis with better odds of being accepted and/or a lower cost to the patient
