@@ -51,7 +51,9 @@ add methods and results for models here, link to jupyter notebook for goal 1
 
 ### Goal 2: Predicting required patient pay
 
-add methods and results for models here, link to jupyter notebook for goal 2
+Details for the model run for goal 2 are in the jupyter notebook titled [Goal2_regression_model_TeamCedar.ipynb](https://github.com/MareikeJaniak/TeamCedar_Erdos2022/blob/46561d1d929cb6f052b16678b51433d031e1bad0/Goal2_regression_model_TeamCedar.ipynb)
+
+We used the XGBRegressor model from xgboost to predict how much patients will have to pay for their medications. 
 
 ### Conclusions and Future Directions
 
