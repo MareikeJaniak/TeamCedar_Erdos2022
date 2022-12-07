@@ -31,6 +31,12 @@ The columns include:
 
 ### Exploratory Data Analysis
 
+The CoverMyMeds dataset includes close to 14 million observations of (simulated) claim billing data for prescription medications, including whether the claim was accepted or rejected, and how much the patient paid as a co-pay for the prescription. 
+
+The dataset is quite imbalanced when it comes to acceptance and rejection rates. Luckily for patients, most claims for prescriptions are accepted:
+
+
+
 add descriptive stats and plots here, link to exploratory data analysis jupyter notebook
 
 ### Goal 1: Predicting likelihood of acceptance/rejection
