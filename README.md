@@ -12,8 +12,6 @@ The goals for our project were twofold:
 
 Stakeholders for this project include CoverMyMeds, as well as patients and clinicians. By being able to know whether a medication is likely to be accepted and how much the patient will have to pay, medical professionals can make informed decisions at the point of prescription, especially when multiple medications may be available. 
 
-* add presentation link here * 
-
 ### Dataset
 
 The data are from a simulated dataset provided by CoverMyMeds. We have 9 features and close to 14 million observations. 
@@ -49,7 +47,7 @@ A discrepancy between branded and generic medications is also apparent when cons
 
 Details for the model run for goal 1 are in the jupyter notebook titled [Goal1_classifier_TeamCedar.ipybnb](https://github.com/MareikeJaniak/TeamCedar_Erdos2022/blob/d9e685a8f80e8f92484632150767bb58f2471908/Goal1_classifier_TeamCedar.ipynb)
 
-We used the XGBClassifier from xgboost to predict whether a medication will be accepted or rejected by insurance. Our model did not perform very well at the default 0.5 threshold. We, therefore, explored other thresholds that would minize false negatives, as these are what would be most costly for the patients. We decided on a threshold of 0.17 as the optimal trade-off between specificity and recall. 
+We used the XGBClassifier from xgboost to predict whether a medication will be accepted or rejected by insurance. Our model did not perform very well at the default 0.5 threshold. We, therefore, explored other thresholds that would minimize false negatives, as these are what would be most costly for the patients. We decided on a threshold of 0.17 as the optimal trade-off between specificity and recall. 
 
 ![Screen Shot 2022-12-07 at 5 00 58 PM](https://user-images.githubusercontent.com/30602072/206326489-558fb19e-cc1e-4655-9716-939c5c291d02.png)
 ![Screen Shot 2022-12-07 at 5 11 56 PM](https://user-images.githubusercontent.com/30602072/206326507-f87010df-a59e-4092-b968-424b4e03b18a.png)
