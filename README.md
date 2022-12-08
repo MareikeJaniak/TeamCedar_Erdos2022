@@ -53,7 +53,13 @@ add methods and results for models here, link to jupyter notebook for goal 1
 
 Details for the model run for goal 2 are in the jupyter notebook titled [Goal2_regression_model_TeamCedar.ipynb](https://github.com/MareikeJaniak/TeamCedar_Erdos2022/blob/46561d1d929cb6f052b16678b51433d031e1bad0/Goal2_regression_model_TeamCedar.ipynb)
 
-We used the XGBRegressor model from xgboost to predict how much patients will have to pay for their medications. 
+We used the XGBRegressor model from xgboost to predict how much patients will have to pay for their medications. Our model performed well and predicted co-pay accurately to within a little over $1 on average. 
+
+![Screen Shot 2022-12-07 at 5 10 24 PM](https://user-images.githubusercontent.com/30602072/206325443-0c6c5a39-1fa5-4c59-883c-2ee435775de0.png)
+
+Mean patient pay: $26.10
+Baseline mean absolute error: $21.80
+Model mean absolute error: $1.17
 
 ### Conclusions and Future Directions
 
